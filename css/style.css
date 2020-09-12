@@ -1,0 +1,193 @@
+/*Tela bem grande*/
+@media (max-width:1500px) {
+	.btn{margin-top: 20px;}		
+}
+/*Tela grande*/
+@media (max-width:1100px) {
+	.esconder{display: none;}
+	.btn{margin-top: 20px;}	
+}
+/*Tela pequena ou tablet*/
+@media (max-width:768px) and (max-width:979px){
+	.esconder{display: none;}
+	.btn{margin-top: 5px;}
+	
+}
+/*Tablet ou Smartphone*/
+@media (max-width:767px) {
+	.esconder{display: none;}
+	.btn{margin-top: 5px;}
+}
+/*Smartphone*/
+@media (max-width:480px) {
+	.esconder{display: none;}
+	.btn{margin-top: 5px;}
+}
+* {
+	margin: 0px;
+	padding: 0px;	
+}
+
+.logo{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo-pesquisa {
+	margin-top: 0px;
+}
+
+.corpo{
+	margin-top: 70px;
+}
+.btn{
+	background-color: #00afff;	
+	color: #fff;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 5px;
+	height: 50px;
+	width: 100%;
+}
+.input{
+	height: 50px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 5px;
+	margin-top: 20px;
+}
+#myCarousel{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;	
+}
+
+.imgIndividual{
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-width: 10px;
+	border-color: #00afff;
+	margin-top: 7px;
+}
+.titulo{
+	background-color:#ffdf00;
+	margin-top: 7px;
+	padding: 5px;
+	font-size: 20px;
+}
+
+li{
+	margin-bottom: 3px;
+}
+
+.tituloTab{
+	background-color:#00afff; 
+	color: #fff;
+	height: 180px;
+}
+
+.logoFace{
+	margin-left: 5px;
+	margin-right: 3px;
+}
+
+.detalhes{
+	font-size: 16px;
+}
+
+.titulos {
+	margin-top: 20px;	
+}
+
+.tituloSobre{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;	
+	
+	background-color:#ffdf00;
+	margin-top: 15px;
+	padding: 10px;
+	font-size: 15px;
+	margin: 2px;
+}
+
+.centralizar{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fundo{
+	background-color: #f8f8f8;
+}
+
+/* ********** PÁGINA PRINCIPAL *******************/
+.topo {
+	margin-bottom: 30px;
+}
+
+.carrossel {
+	margin-bottom: 20px;	
+}
+
+.meio {
+  font-size: 12px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background:#fff;
+  border-right: 1px dotted #bbb;
+  border-left: 1px dotted #bbb;
+}
+
+/* ********* PÁGINA SOBRE E FORMULÁRIOS ***************/
+.campos {
+	margin: 20px;
+}
+.campodestaque {
+	font-weight: bold;	
+}
+
+.panel {
+
+}
+
+.panel-primary {
+	border-color: #00afff !important;
+}
+
+.panel-heading {
+	background-color: #00afff !important;	
+}
+
+.panel-title {
+	color: #ffffff;	
+}
+
+.panel-heading a:link {
+	color: #ffffff !important;	
+	
+}
+
+.panel-heading a:hover {
+	color: #ffff00 !important;	
+	text-decoration: none;
+}
+
+/* ************************************************************** */
+
+.logodaempresa {
+	width: 250px;	
+}
+
+/*.tituloAnuncio:hover{
+	color: #ffdf00;
+	font-size: 17px;
+}*/

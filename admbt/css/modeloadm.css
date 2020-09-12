@@ -1,0 +1,548 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: "Arial";
+	margin:0;
+}
+
+hr {
+	float: left;
+	width: 900px;
+}
+
+h1 {
+	color: #09f;
+	font-weight: bold;
+}
+
+#tudo {
+	width: 900px;
+	margin: auto;
+}
+
+#corpo {
+	float: left;
+	width: 900px;
+	margin: auto;
+}
+
+/* PÁGINA DE LOGIN */
+#login {
+	margin: auto;
+	border: 2px solid #aaa;
+	border-radius: 20px;
+	padding: 20px;
+	text-align: center;
+	width: 400px;
+	height: 200px;
+}
+
+#login h1 {
+	color: #09f;
+	font-size: 20px;
+}
+
+#login-corpo {
+	width: 600px;
+	margin: auto;
+}
+
+#login-topo {
+	margin:auto;
+	width: 400px;
+	height:180px;
+	margin-bottom:20px;
+}
+
+#login-logo {
+	text-align: center;
+	margin: auto;
+}
+
+/* ***** ***** ***** ***** ***** ***** */
+/* TOPO DAS PÁGINAS ADMINISTRATIVAS */
+
+#topo {
+	margin: auto;
+	width: 900px;
+	margin-bottom: 0px;
+}
+
+#logo {
+	float:left;
+}
+
+#titulo {
+	float: right;
+	font-size: 12px;
+	margin-top: 40px;
+	margin-bottom: 0px;
+}
+
+#titulo-pagina {
+	margin: auto;
+	width: 400px;
+	margin-bottom: 10px;
+}
+
+#ativacao {
+	width: 550px;
+	margin: auto;
+}
+
+
+/* ***** ***** ***** ***** ***** ***** */
+
+#menu {
+	float: left;
+	font-family: "Arial";
+	width: 900px;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.opcoes {
+	font-family: "Arial";
+	font-size:14px;
+	font-weight:bold;
+	color:#555;
+	text-decoration:none;
+	width:120px;
+	height: 25px;
+	padding-top:10px;
+	padding-left:10px;
+	border-bottom:#FFF;
+	margin-bottom:0px;
+	float:left;
+}
+
+.opcoes a {
+	font-family: "Arial";
+	font-size:14px;
+	color:#555;
+	text-decoration:none;
+}
+
+.opcoes a:link {
+	font-family: "Arial";
+	font-size:14px;
+	color:#555;
+	text-decoration:none;
+}
+
+.opcoes a:hover{
+	font-family: "Arial";
+	font-size:14px;
+	color:#222;
+	text-decoration:none;
+}
+
+#selecao {
+	margin: auto;
+	width: 900px;
+	border-bottom: 1px solid #555;
+}
+
+#cliente {
+	margin: auto;
+	float: left;
+}
+
+#id_cliente  {
+	color: $cd0000;
+	float: right;
+	margin-top: 10px;
+	margin-left: 300px;
+}
+
+
+
+
+
+
+
+#empresa {
+	font-family:Verdana, Geneva, sans-serif;*/
+	font-size:14px;
+	font-weight:bold;
+}
+
+#descricao {
+	font-size:11px;
+	font-style:italic;
+}
+
+#msg {
+	color:#F00;
+	font-size:10px;
+	font-weight:bold;
+}
+
+#nome {
+	font-size:10px;
+	font-weight:bold;
+}
+
+#email {
+	font-size:10px;
+	font-weight:bold;
+}
+
+#telefone {
+	font-size:10px;
+	font-weight:bold;
+}
+
+#mensagem {
+	font-size:10px;
+	font-weight:bold;
+}
+
+#endereco {
+	font-size:10px;
+	font-weight:bold;
+}
+
+#numero {
+	font-size:10px;
+	font-weight:bold;
+}
+
+#complemento {
+	font-size:10px;
+	font-weight:bold;	
+}
+
+#bairro {
+	font-size:10px;
+	font-weight:bold;	
+}
+
+/* CAMPOS DE INSERÇÃO - INPUT e FORMULÁRIOS */
+
+#formulario {
+	width: 550px;
+	margin: auto;
+	font-size:10px;
+	font-weight:bold;
+	margin-top: 0px;
+}
+
+#formulario h1 {
+	color: #555;
+}
+
+.titulo-campo {
+	font-size: 10px;
+	font-weight: bold;
+	color: #444;
+}
+
+#website-tt {
+	margin-right: 132px;
+}
+
+#facebook-tt {
+	margin-right: 120px;
+}
+
+#endereco-tt {
+	margin-right: 387px;
+}
+
+#complemento-tt {
+	margin-right: 49px;
+}
+
+#bairro-tt {
+	margin-right: 160px;
+}
+
+#uf-tt {
+	margin-right: 40px;
+}
+
+#cep-tt {
+	margin-right: 75px;
+}
+
+#telefonefixo-tt {
+	margin-right: 20px;
+}
+
+#celularoi-tt {
+	margin-right: 92px;
+}
+
+#celularclaro-tt {
+	margin-right: 68px;
+}
+
+#celularvivo-tt {
+	margin-right: 78px;
+}
+
+#celulartim-tt {
+	margin-right: 40px;
+}
+
+#latitude-tt {
+	margin-right: 132px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#empresa-frm {
+	
+}
+
+#descricao {
+	
+}
+
+#email-frm {
+	
+}
+
+#numero-frm {
+
+}
+
+#num-tt {
+	margin-left:340px;	
+}
+
+#bairro-frm {
+
+}
+
+#cidade-frm {
+
+}
+
+#uf-frm {
+
+}
+
+#telefone1-frm {
+
+}
+
+#telefone2-frm {
+	margin-left:32px;
+}
+
+#latitude-frm {
+	
+}
+
+#longitude-frm {
+	margin-left:290px;
+}
+
+#mensagem {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	color:#F00;
+}
+
+#palavrasmais {
+	font-size:15px;
+	font-weight:normal;
+	color:#00F;
+	width:200px;
+	height:400px;
+	background-color:#6bf;
+	padding-left:0px;
+	padding-top:0px;
+	float:right;
+}
+
+#palavrasmais h3 {
+	font-size:12px;
+	font-weight:bold;
+	background-color:#09f;
+	color:#FFF;
+	width:190px;
+	margin-top:0px;
+	padding-top:10px;
+	padding-left:10px;
+	height:30px;
+	float:left;
+}
+
+.palavra {
+	width:150px;
+	margin:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+	padding-left:10px;
+	float:left;
+}
+
+#status {
+	font-size:12px;
+	font-weight:bold;
+	padding:5px;
+	margin-bottom:3px;
+	width:400px;
+	color: #f00;
+}
+
+#nomeanuncio {
+	width:500px;
+	float:left;
+}
+
+#lista {
+	margin: auto;
+	width: 600px;
+}
+
+.anunciante-par {
+	width: 470px;
+	height: 40px;
+	padding: 10px;
+	background-color: #9bf;
+	font-weight: bold;
+	color: #000089;
+	float: left;	
+}
+
+.anunciante-impar {
+	width: 470px;
+	height: 40px;
+	padding: 10px;
+	background-color: #eee;
+	font-weight: bold;
+	color: #000089;
+	float: left;
+}
+
+
+.status-on {
+	width: 70px;
+	height: 28px;
+	margin: 5px;
+	padding: 10px;
+	border-radius:6px;
+	background-color:#0C0;
+	color:#FFF;
+	font-weight:bold;
+	font-family: "Arial";
+	text-decoration:none;
+	float: right;
+}
+
+.status-off {
+	width: 70px;
+	height: 28px;
+	margin: 5px;
+	padding: 10px;
+	border-radius:6px;
+	background-color:#f00;
+	color:#FFF;
+	font-weight:bold;
+	font-family: "Arial";
+	text-decoration:none;
+	float: right;
+}
+
+.ativar-desativar {
+	margin:auto;
+	width: 150px;
+	margin-bottom: 20px;
+	margin-left: 80px;
+	float: left;
+}
+
+#resposta {
+	font-weight: bold;
+	margin: auto;
+	width:600px;
+	height:50px;
+	color: #f00;
+	display: none;
+}
+
+#upload {
+	float: left;
+	margin: 30px;
+	width: 350px;
+	border-right: 1px solid;
+}
+
+.img {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.minifotos {
+	float: left;
+	width: 150px;
+	height: 250px;
+}
+
+.nophoto {
+	font-weight: bold;
+	color: #f00;
+}
+
+#x {
+	position: absolute;
+	display: none;
+}
+
+#mensagem {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -150px;
+}
+
+#excluida {
+	font-size: 13px;
+	background-color: #33ff33;
+	font-weight: bold;
+	text-align: center;
+	width: 300px;
+	padding: 10px;
+	color: #fff;
+	text-shadow: 1px 1px 3px #222;;
+}
+
+#erro {
+	font-size: 13px;
+	background-color: #ff3333;
+	font-weight: bold;
+	text-align: center;
+	width: 300px;
+	padding: 10px;
+	color: #fff;
+	text-shadow: 1px 1px 3px #222;;
+}
+
+#mostrarfotos {	
+	float: left;
+	width: 450px;
+}
